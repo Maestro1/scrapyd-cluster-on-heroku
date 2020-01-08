@@ -30,7 +30,7 @@ if os.environ.get('ENABLE_AUTH', 'False') == 'True':
 USERNAME = ''
 PASSWORD = ''
 USERNAME = os.environ.get('USERNAME', 'admin')
-PASSWORD = os.environ.get('PASSWORD', 'scrapydweb')
+PASSWORD = os.environ.get('PASSWORD', 'adminscrapyd')
 
 
 # Make sure that [Scrapyd](https://github.com/scrapy/scrapyd) has been installed
